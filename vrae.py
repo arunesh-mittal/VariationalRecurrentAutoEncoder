@@ -7,7 +7,7 @@ from jupyterthemes import jtplot
 
 
 #CLI args [data_set_idx, z_dim, time_steps]
-#Example: python vrae  data_set_idx=0 z_dim=20 time_steps=50
+#Example: python vrae.py  data_set_idx=0 z_dim=20 time_steps=50
 
 
 # X \in {0,1}^{batch_size, dim_x, time_steps}
@@ -19,11 +19,11 @@ x_in_dim = 88
 # Params replicated from Fabius et. al Paper
 beta_1 = 0.05
 beta_2 = 0.001
-num_epochs = 10#40000 #TEST
+num_epochs = 40000 
 learning_rate_1 = 2e-5
 learning_rate_2 = 1e-5
-num_epochs_to_diff_learn_rate = 5#16000 #TEST 
-num_epochs_to_save_model = 4#1000 #TEST
+num_epochs_to_diff_learn_rate = 16000 
+num_epochs_to_save_model = 1000 
 num_hidden_units = 500
 #decay_rate = .7
 
