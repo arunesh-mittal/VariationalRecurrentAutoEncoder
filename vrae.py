@@ -11,8 +11,9 @@ from jupyterthemes import jtplot
 
 
 # X \in {0,1}^{batch_size, dim_x, time_steps}
-
+#############################
 # Constant params
+#############################
 x_in_dim = 88
 
 # Params replicated from Fabius et. al Paper
